@@ -1,0 +1,25 @@
+Digital signal processing (DSP) involves various filtering techniques to manipulate and enhance signals. Here are some commonly used filters in DSP:
+
+Low-pass filter: Allows low-frequency components to pass through while attenuating high-frequency components.
+
+High-pass filter: Allows high-frequency components to pass through while attenuating low-frequency components.
+
+Band-pass filter: Allows a specific range of frequencies to pass through while attenuating frequencies outside the range.
+
+Band-stop filter (notch filter): Attenuates a specific range of frequencies while allowing frequencies outside the range to pass through.
+
+FIR filter (Finite Impulse Response): A type of filter with a finite duration response based on a weighted sum of past and current input samples.
+
+IIR filter (Infinite Impulse Response): A filter that has feedback, resulting in a potentially infinite impulse response and a recursive structure.
+
+Butterworth filter: A type of analog or digital filter with a maximally flat frequency response in the passband and a gradual roll-off.
+
+Chebyshev filter: A filter that achieves a sharper roll-off at the expense of ripple in the passband or stopband.
+
+Elliptic filter (Cauer filter): A filter that combines characteristics of both Chebyshev and Butterworth filters, providing a sharp roll-off and low ripple in both the passband and stopband.
+
+Kalman filter: An optimal recursive filter used for estimating the state of a dynamic system in the presence of noise.
+
+Adaptive filter: A filter whose coefficients adapt based on the input signal, allowing it to track time-varying characteristics.
+
+These are just a few examples of filters used in DSP. There are many other specialized filters and variations available, depending on the specific requirements and application of the signal processing task.
